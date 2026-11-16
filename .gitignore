@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+
+# NOTE: data/netflix_titles.csv, netflix_clean.csv and netflix.db are
+# intentionally NOT ignored — Streamlit Community Cloud has no separate
+# persistent storage, so the data needs to be committed for the deployed
+# app to have anything to read.
